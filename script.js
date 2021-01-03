@@ -103,6 +103,10 @@
       // const de = links
       //   .map((link) => link.textContent)
       //   .filter((streetName) => streetName.includes("de"));
+      // console.log(de); .map() is not a function => Getting NodeList
+      // That's why links need to be convert to an array => Array.from
+      // console.log(de);
+      // ["Boulevard de l'Amiral-Bruix", "Boulevard des Capucines", "Boulevard de la Chapelle", "Boulevard de Clichy", "Boulevard de l'Hôpital", "Boulevard des Italiens", "Boulevard de la Madeleine", "Boulevard de Magenta", "Boulevard Marguerite-de-Rochechouart", "Boulevard de Sébastopol", "Boulevard de Strasbourg", "Boulevard de la Zone"]
       
 
       // 7. Sort the people alphabetically by last name
